@@ -54,4 +54,4 @@ EXPOSE 8000
 
 CMD [ "python","manage.py", "runserver", "0.0.0.0:8000" ]
 
-# docker run --name django_todo -d -p 8000:8000 portfolio:latest
+# docker run --name blog -d -p 8000:8000 blog:latest
